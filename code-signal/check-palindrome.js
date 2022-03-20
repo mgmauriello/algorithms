@@ -1,9 +1,9 @@
-function solution(inputString) {
-  inputString = inputString.split(' ').join('');
+function checkPalindrome(input) {
+  input = input.split(' ').join('');
 
   var newStr = '';
-  for (var i = inputString.length - 1; i >= 0; i--) {
-    newStr += inputString[i];
+  for (var i = input.length - 1; i >= 0; i--) {
+    newStr += input[i];
   }
-  return newStr === inputString;
+  return newStr === input;
 }

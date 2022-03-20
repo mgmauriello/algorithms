@@ -1,4 +1,4 @@
-function solution(year) {
+function centuryFromYear(year) {
   var century = 0;
   while (year > 0) {
     year = year - 100;
